@@ -42,25 +42,87 @@
 
     <section class="min-vh-100-light py-5">
       <div class="container">
-        <div class="row justify-content-center mb-md-6">
-          <div class="col-auto">
-            <a href="index.html">
-              <img src="assets/img/logo.svg" alt="Leap">
-            </a>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8 col-xl-7">
-            <img src="assets/img/desktop-app-1.png" alt="Image" class="shadow-lg">
-          </div>
-        </div>
-        <div class="row text-center py-6">
-          <div class="col">
-
-            <h1>Your download should start automatically</h1>
-            <div class="lead mb-4">If the download doesn't start, <a href="#">Click here</a> to download manually.</div>
-            <a class="btn btn-primary btn-sm" href="index.html">Continue browsing</a>
-          </div>
+        <div class="row text-center justify-content-center align-items-center mb-md-6 piano">
+          <section id="wrap">
+            <header class="justify-content-center">
+              <h1 class="display-4">Play the Piano</h1>
+              <div class="lead mb-4">Try playing the piano below. I was never good at it, but maybe you might!</div>
+            </header>
+            <section id="main">
+                <h3 class="h1 nowplaying">Current Key: </h3>
+              <div class="keys">
+                <div data-key="65" class="key" data-note="C">
+                    <span class="hints">A</span>
+                </div>
+                <div data-key="87" class="key sharp" data-note="C#">
+                    <span class="hints">W</span>
+                </div>
+                <div data-key="83" class="key" data-note="D">
+                    <span class="hints">S</span>
+                </div>
+                <div data-key="69" class="key sharp" data-note="D#">
+                    <span class="hints">E</span>
+                </div>
+                <div data-key="68" class="key" data-note="E">
+                    <span class="hints">D</span>
+                </div>
+                <div data-key="70" class="key" data-note="F">
+                    <span class="hints">F</span>
+                </div>
+                <div data-key="84" class="key sharp" data-note="F#">
+                    <span class="hints">T</span>
+                </div>
+                <div data-key="71" class="key" data-note="G">
+                    <span class="hints">G</span>
+                </div>
+                <div data-key="89" class="key sharp" data-note="G#">
+                    <span class="hints">Y</span>
+                </div>
+                <div data-key="72" class="key" data-note="A">
+                    <span class="hints">H</span>
+                </div>
+                <div data-key="85" class="key sharp" data-note="A#">
+                    <span class="hints">U</span>
+                </div>
+                <div data-key="74" class="key" data-note="B">
+                    <span class="hints">J</span>
+                </div>
+                <div data-key="75" class="key" data-note="C">
+                    <span class="hints">K</span>
+                </div>
+                <div data-key="79" class="key sharp" data-note="C#">
+                    <span class="hints">O</span>
+                </div>
+                <div data-key="76" class="key" data-note="D">
+                    <span class="hints">L</span>
+                </div>
+                <div data-key="80" class="key sharp" data-note="D#">
+                    <span class="hints">P</span>
+                </div>
+                <div data-key="186" class="key" data-note="E">
+                    <span class="hints">;</span>
+                </div>
+              </div>
+        
+              <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
+              <audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
+              <audio data-key="83" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
+              <audio data-key="69" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>
+              <audio data-key="68" src="http://carolinegabriel.com/demo/js-keyboard/sounds/044.wav"></audio>
+              <audio data-key="70" src="http://carolinegabriel.com/demo/js-keyboard/sounds/045.wav"></audio>
+              <audio data-key="84" src="http://carolinegabriel.com/demo/js-keyboard/sounds/046.wav"></audio>
+              <audio data-key="71" src="http://carolinegabriel.com/demo/js-keyboard/sounds/047.wav"></audio>
+              <audio data-key="89" src="http://carolinegabriel.com/demo/js-keyboard/sounds/048.wav"></audio>
+              <audio data-key="72" src="http://carolinegabriel.com/demo/js-keyboard/sounds/049.wav"></audio>
+              <audio data-key="85" src="http://carolinegabriel.com/demo/js-keyboard/sounds/050.wav"></audio>
+              <audio data-key="74" src="http://carolinegabriel.com/demo/js-keyboard/sounds/051.wav"></audio>
+              <audio data-key="75" src="http://carolinegabriel.com/demo/js-keyboard/sounds/052.wav"></audio>
+              <audio data-key="79" src="http://carolinegabriel.com/demo/js-keyboard/sounds/053.wav"></audio>
+              <audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>
+              <audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
+              <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
+              </section>
+          </section>
         </div>
       </div>
     </section>
@@ -99,6 +161,8 @@
     <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
       <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
     </a>
+
+    <script type="text/javascript" src="assets/js/customscript.js"></script>
 
     <!-- Required vendor scripts (Do not remove) -->
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
