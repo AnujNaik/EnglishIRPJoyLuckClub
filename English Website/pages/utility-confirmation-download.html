@@ -56,59 +56,53 @@
     
     <section class="min-vh-100-light py-5">
       <div class="container">
-        <div class="row text-center justify-content-center align-items-center mb-md-6 piano">
-          <section id="wrap">
-            <header class="justify-content-center">
-              <div class="container">
-                <div class="row pt-5 py-5 text-center justify-content-center align-items-center layer-2">
-                  <div class="col-xl-8 col-lg-10">
-                    <h1 class="display-4">Play the Piano</h1>
-                  </div>
-                </div>
-              </div>
-              <div class="container">
-                <div class="row align-items-center justify-content-around">
-                  <div class="col-md-5 pr-xl-4 mb-4 mb-md-0">
-                    <div class="lead mb-4">Try playing the piano below. Mr. Chong, who I called Old Chong, taught me how to play. Though deaf, he was a great teacher, I was just a terrible student and I hated piano. After my mother's death, I had a newfound appreciation for the piano she had gifted me as a child. Try playing the piano yourself!</div>
-                  </div>
-                  <div class="col-xl-5 col-md-6" data-aos="fade-left">
-                    <audio id="songAudio1">
-                      <source src="assets/audio/Perfectly Contented.mp3" type="audio/mp3">
-                      Your browser does not support the audio element.
-                    </audio>
+        <div class="container">
+          <div class="row pt-5 py-5 text-center justify-content-center align-items-center layer-2">
+            <div class="col-xl-8 col-lg-10">
+              <h1 class="display-4">Play the Piano</h1>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row align-items-center justify-content-around">
+            <div class="col-md-5 pr-xl-4 mb-4 mb-md-0">
+              <div class="lead mb-4">Try playing the piano below. Mr. Chong, who I called Old Chong, taught me how to play. Though deaf, he was a great teacher, I was just a terrible student and I hated piano. After my mother's death, I had a newfound appreciation for the piano she had gifted me as a child. Try playing the piano yourself!</div>
+            </div>
+            <div class="col-xl-5 col-md-6" data-aos="fade-left">
+              <audio id="songAudio1">
+                <source src="assets/audio/Perfectly Contented.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+              </audio>
 
-                    <audio id="songAudio2">
-                      <source src="assets/audio/Pleading Child.mp3" type="audio/mp3">
-                      Your browser does not support the audio element.
-                    </audio>
+              <audio id="songAudio2">
+                <source src="assets/audio/Pleading Child.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+              </audio>
 
-                    <div class="container">
-                      <div class="row align-items-center min-vh-50" style="width: 150%;">
-                        <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
-                          <div class="pr-xl-4 mb-4 mb-md-0 text-center">
-                            <div class="mb-4 mb-md-0">
-                              <div class="lead mb-4"><strong>"Perfectly Contented"<br>Robert Schumann</strong></div>
-                            </div>
-                            <a onclick="playSong1()" class="btn btn-lg playButton" id="song1Button" style="color: white">Play</a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6 text-center" data-aos="fade-left">
-                          <div class="pr-xl-4 mb-4 mb-md-0 text-center">
-                            <div class="mb-4 mb-md-0">
-                              <div class="lead mb-4"><strong>"Pleading Child"<br>Robert Schumann</strong></div>
-                            </div>
-                            <a onclick="playSong2()" class="btn-lg playButton" id="song2Button" style="color: white">Play</a>
-                          </div>
-                        </div>
+              <div class="container">
+                <div class="row min-vh-50" style="width: 150%; padding-top: 20%;">
+                  <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
+                    <div class="pr-xl-4 mb-4 mb-md-0 text-center">
+                      <div class="mb-4 mb-md-0">
+                        <div class="lead mb-4"><strong>"Perfectly Contented"<br>Robert Schumann</strong></div>
                       </div>
+                      <a onclick="playSong1()" class="btn btn-lg playButton" id="song1Button" style="color: white">Play</a>
                     </div>
-                    
-
+                  </div>
+                  <div class="col-lg-6 text-center" data-aos="fade-left">
+                    <div class="pr-xl-4 mb-4 mb-md-0 text-center">
+                      <div class="mb-4 mb-md-0">
+                        <div class="lead mb-4"><strong>"Pleading Child"<br>Robert Schumann</strong></div>
+                      </div>
+                      <a onclick="playSong2()" class="btn btn-lg playButton" id="song2Button" style="color: white">Play</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </header>
-            <section id="main">
+            </div>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center align-items-center mb-md-6 piano">
                 <h3 class="h1 nowplaying">Current Key: </h3>
               <div class="keys">
                 <div data-key="65" class="key" data-note="C">
@@ -181,8 +175,6 @@
               <audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>
               <audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
               <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
-              </section>
-          </section>
         </div>
       </div>
     </section>
