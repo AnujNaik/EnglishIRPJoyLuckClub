@@ -130,7 +130,6 @@ h2 {
   max-width: 880px;
   position: relative;
   margin: 40px auto 0;
-  cursor: none;
 }
 
 .key {
@@ -206,4 +205,8 @@ h2 {
 
 .keys:hover .hints {
   opacity: 1;
+}
+
+.playButton {
+    background-color: hsl(0, 0%, 0%);
 }
