@@ -7,13 +7,17 @@
 /*
 */
 
+body {
+    font-family: 'Courier New', monospace;
+}
+
 img.GoldenGate {
     height: 100%;
     width: 100%;
   }
 
-body {
-    font-family: 'Courier New', monospace;
+.customIcon {
+    height: 26px;
 }
 
 .flip-card {
